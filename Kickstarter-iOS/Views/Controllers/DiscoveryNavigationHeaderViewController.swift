@@ -81,7 +81,7 @@ internal final class DiscoveryNavigationHeaderViewController: UIViewController {
     self.dividerLabel.rac.hidden = self.viewModel.outputs.dividerIsHidden
     self.titleButton.rac.accessibilityLabel = self.viewModel.outputs.titleButtonAccessibilityLabel
     self.titleButton.rac.accessibilityHint = self.viewModel.outputs.titleButtonAccessibilityHint
-
+    debugImageView.isAccessibilityElement = true
     self.viewModel.outputs.primaryLabelOpacityAnimated
       .observeForUI()
       .observeValues { [weak self] alpha, animated in

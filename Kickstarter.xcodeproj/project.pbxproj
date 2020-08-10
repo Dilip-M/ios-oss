@@ -368,6 +368,22 @@
 		80D73AF61D50F1A60099231F /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E26A121D500C6A007B3022 /* Navigation.swift */; };
 		80E8EAC81D3EC65A007BDA4B /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E8EAC71D3EC65A007BDA4B /* Image.swift */; };
 		80EAEF051D243C4E008C2353 /* Backing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EAEF031D243C4E008C2353 /* Backing.storyboard */; };
+		84B50BA724E1048800E05AE9 /* Kickstarter_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BA624E1048800E05AE9 /* Kickstarter_UITests.swift */; };
+		84B50BB624E124A300E05AE9 /* Initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BB524E124A300E05AE9 /* Initializers.swift */; };
+		84B50BB924E124E300E05AE9 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BB824E124E300E05AE9 /* AccessibilityIdentifiers.swift */; };
+		84B50BBB24E124EF00E05AE9 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BBA24E124EF00E05AE9 /* TestData.swift */; };
+		84B50BBF24E1257D00E05AE9 /* TabBarElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BBE24E1257D00E05AE9 /* TabBarElements.swift */; };
+		84B50BC124E126B300E05AE9 /* TabBarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BC024E126B300E05AE9 /* TabBarScreen.swift */; };
+		84B50BC324E1270100E05AE9 /* Tappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BC224E1270100E05AE9 /* Tappable.swift */; };
+		84B50BC524E1280800E05AE9 /* TextEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BC424E1280800E05AE9 /* TextEditable.swift */; };
+		84B50BC724E12B4100E05AE9 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BC624E12B4100E05AE9 /* ProfileScreen.swift */; };
+		84B50BC924E12B5300E05AE9 /* ProfileScreenElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BC824E12B5300E05AE9 /* ProfileScreenElements.swift */; };
+		84B50BCB24E12BEF00E05AE9 /* LoginScreenElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BCA24E12BEF00E05AE9 /* LoginScreenElements.swift */; };
+		84B50BCD24E12C1C00E05AE9 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B50BCC24E12C1C00E05AE9 /* LoginScreen.swift */; };
+		84E7AFA924E135540059415F /* ExploreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7AFA824E135540059415F /* ExploreScreen.swift */; };
+		84E7AFAB24E1356C0059415F /* ExploreScreenElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7AFAA24E1356C0059415F /* ExploreScreenElements.swift */; };
+		84E7AFAD24E136020059415F /* BetaToolsScreenElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7AFAC24E136020059415F /* BetaToolsScreenElements.swift */; };
+		84E7AFAF24E139B60059415F /* BetaToolsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7AFAE24E139B60059415F /* BetaToolsScreen.swift */; };
 		8A05CB0E23DB82D3002B01EE /* CookieRefTagFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A05CB0D23DB82D3002B01EE /* CookieRefTagFunctions.swift */; };
 		8A072D3A230223B200BA1538 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A072D39230223B200BA1538 /* UIImage+Color.swift */; };
 		8A142EBD23354BFD00FB43AB /* AddNewCardIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A142EBC23354BFD00FB43AB /* AddNewCardIntent.swift */; };
@@ -1356,6 +1372,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		84B50BA924E1048800E05AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7E06C711C5A6EB300EBDCC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7D1F9441C850B7C000D41D5;
+			remoteInfo = "Kickstarter-iOS";
+		};
 		A724BA621D2BFCC10041863C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7E06C711C5A6EB300EBDCC2 /* Project object */;
@@ -1863,6 +1886,24 @@
 		80E26A121D500C6A007B3022 /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		80E8EAC71D3EC65A007BDA4B /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		80EAEF031D243C4E008C2353 /* Backing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Backing.storyboard; sourceTree = "<group>"; };
+		84B50BA424E1048700E05AE9 /* Kickstarter_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kickstarter_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B50BA624E1048800E05AE9 /* Kickstarter_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kickstarter_UITests.swift; sourceTree = "<group>"; };
+		84B50BA824E1048800E05AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B50BB524E124A300E05AE9 /* Initializers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializers.swift; sourceTree = "<group>"; };
+		84B50BB824E124E300E05AE9 /* AccessibilityIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifiers.swift; sourceTree = "<group>"; };
+		84B50BBA24E124EF00E05AE9 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		84B50BBE24E1257D00E05AE9 /* TabBarElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarElements.swift; sourceTree = "<group>"; };
+		84B50BC024E126B300E05AE9 /* TabBarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarScreen.swift; sourceTree = "<group>"; };
+		84B50BC224E1270100E05AE9 /* Tappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tappable.swift; sourceTree = "<group>"; };
+		84B50BC424E1280800E05AE9 /* TextEditable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditable.swift; sourceTree = "<group>"; };
+		84B50BC624E12B4100E05AE9 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		84B50BC824E12B5300E05AE9 /* ProfileScreenElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenElements.swift; sourceTree = "<group>"; };
+		84B50BCA24E12BEF00E05AE9 /* LoginScreenElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenElements.swift; sourceTree = "<group>"; };
+		84B50BCC24E12C1C00E05AE9 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		84E7AFA824E135540059415F /* ExploreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreScreen.swift; sourceTree = "<group>"; };
+		84E7AFAA24E1356C0059415F /* ExploreScreenElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreScreenElements.swift; sourceTree = "<group>"; };
+		84E7AFAC24E136020059415F /* BetaToolsScreenElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaToolsScreenElements.swift; sourceTree = "<group>"; };
+		84E7AFAE24E139B60059415F /* BetaToolsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaToolsScreen.swift; sourceTree = "<group>"; };
 		8A05CB0D23DB82D3002B01EE /* CookieRefTagFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieRefTagFunctions.swift; sourceTree = "<group>"; };
 		8A072D39230223B200BA1538 /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
 		8A142EBC23354BFD00FB43AB /* AddNewCardIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCardIntent.swift; sourceTree = "<group>"; };
@@ -2788,6 +2829,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		84B50BA124E1048700E05AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A75511381C8642B3005355CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -3000,6 +3048,93 @@
 				802800571C88F64D00141235 /* Base.xcconfig */,
 			);
 			name = Configs;
+			sourceTree = "<group>";
+		};
+		84B50B9F24E1043800E05AE9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		84B50BA524E1048800E05AE9 /* Kickstarter_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B50BB724E124C700E05AE9 /* Common */,
+				84B50BB424E1248800E05AE9 /* Screens */,
+				84B50BB324E1247D00E05AE9 /* ScreenElements */,
+				84B50BB124E1246C00E05AE9 /* Protocols */,
+				84B50BB024E1246600E05AE9 /* Tests */,
+				84B50BA824E1048800E05AE9 /* Info.plist */,
+				84B50BB524E124A300E05AE9 /* Initializers.swift */,
+			);
+			path = Kickstarter_UITests;
+			sourceTree = "<group>";
+		};
+		84B50BB024E1246600E05AE9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84B50BA624E1048800E05AE9 /* Kickstarter_UITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		84B50BB124E1246C00E05AE9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				84B50BC224E1270100E05AE9 /* Tappable.swift */,
+				84B50BC424E1280800E05AE9 /* TextEditable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		84B50BB324E1247D00E05AE9 /* ScreenElements */ = {
+			isa = PBXGroup;
+			children = (
+				84B50BBD24E1256400E05AE9 /* Components */,
+				84B50BC824E12B5300E05AE9 /* ProfileScreenElements.swift */,
+				84B50BCA24E12BEF00E05AE9 /* LoginScreenElements.swift */,
+				84E7AFAA24E1356C0059415F /* ExploreScreenElements.swift */,
+				84E7AFAC24E136020059415F /* BetaToolsScreenElements.swift */,
+			);
+			path = ScreenElements;
+			sourceTree = "<group>";
+		};
+		84B50BB424E1248800E05AE9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				84E7AFA824E135540059415F /* ExploreScreen.swift */,
+				84E7AFAE24E139B60059415F /* BetaToolsScreen.swift */,
+				84B50BC624E12B4100E05AE9 /* ProfileScreen.swift */,
+				84B50BCC24E12C1C00E05AE9 /* LoginScreen.swift */,
+				84B50BBC24E1255400E05AE9 /* Components */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		84B50BB724E124C700E05AE9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84B50BB824E124E300E05AE9 /* AccessibilityIdentifiers.swift */,
+				84B50BBA24E124EF00E05AE9 /* TestData.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84B50BBC24E1255400E05AE9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				84B50BC024E126B300E05AE9 /* TabBarScreen.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		84B50BBD24E1256400E05AE9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				84B50BBE24E1257D00E05AE9 /* TabBarElements.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		8A14E09523971BD000387824 /* ShimmerLoadingViews */ = {
@@ -3650,6 +3785,7 @@
 			children = (
 				A7C795C71C873B800081977F /* Kickstarter-iOS.playground */,
 				802800561C88F62500141235 /* Configs */,
+				84B50BA524E1048800E05AE9 /* Kickstarter_UITests */,
 				A7E06DBC1C5C027800EBDCC2 /* Frameworks */,
 				A7D1F9461C850B7C000D41D5 /* Kickstarter-iOS */,
 				D05DFC42227A578C006F3B68 /* KickstarterUITests */,
@@ -3673,6 +3809,7 @@
 				D01587501EEB2DE4006E7684 /* KsApi.framework */,
 				D01587581EEB2DE4006E7684 /* KsApiTests.xctest */,
 				D05DFC41227A578B006F3B68 /* KickstarterUITests.xctest */,
+				84B50BA424E1048700E05AE9 /* Kickstarter_UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -4430,6 +4567,7 @@
 		D05DFC42227A578C006F3B68 /* KickstarterUITests */ = {
 			isa = PBXGroup;
 			children = (
+				84B50B9F24E1043800E05AE9 /* Tests */,
 				D05DFC43227A578C006F3B68 /* KickstarterUITests.swift */,
 				D05DFC45227A578C006F3B68 /* Info.plist */,
 			);
@@ -4488,6 +4626,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		84B50BA324E1048700E05AE9 /* Kickstarter_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B50BAB24E1048800E05AE9 /* Build configuration list for PBXNativeTarget "Kickstarter_UITests" */;
+			buildPhases = (
+				84B50BA024E1048700E05AE9 /* Sources */,
+				84B50BA124E1048700E05AE9 /* Frameworks */,
+				84B50BA224E1048700E05AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B50BAA24E1048800E05AE9 /* PBXTargetDependency */,
+			);
+			name = Kickstarter_UITests;
+			productName = Kickstarter_UITests;
+			productReference = 84B50BA424E1048700E05AE9 /* Kickstarter_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		A755113B1C8642B3005355CF /* Library-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A75511591C8642B3005355CF /* Build configuration list for PBXNativeTarget "Library-iOS" */;
@@ -4652,10 +4808,14 @@
 		A7E06C711C5A6EB300EBDCC2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Kickstarter;
 				TargetAttributes = {
+					84B50BA324E1048700E05AE9 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A7D1F9441C850B7C000D41D5;
+					};
 					A755113B1C8642B3005355CF = {
 						CreatedOnToolsVersion = 7.2.1;
 						LastSwiftMigration = 1000;
@@ -4735,11 +4895,19 @@
 				D05DFC40227A578B006F3B68 /* KickstarterUITests */,
 				D015874F1EEB2DE4006E7684 /* KsApi */,
 				D01587571EEB2DE4006E7684 /* KsApiTests */,
+				84B50BA324E1048700E05AE9 /* Kickstarter_UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		84B50BA224E1048700E05AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A755113A1C8642B3005355CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4951,6 +5119,29 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		84B50BA024E1048700E05AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B50BB924E124E300E05AE9 /* AccessibilityIdentifiers.swift in Sources */,
+				84B50BBF24E1257D00E05AE9 /* TabBarElements.swift in Sources */,
+				84B50BB624E124A300E05AE9 /* Initializers.swift in Sources */,
+				84E7AFAD24E136020059415F /* BetaToolsScreenElements.swift in Sources */,
+				84B50BA724E1048800E05AE9 /* Kickstarter_UITests.swift in Sources */,
+				84B50BCB24E12BEF00E05AE9 /* LoginScreenElements.swift in Sources */,
+				84B50BCD24E12C1C00E05AE9 /* LoginScreen.swift in Sources */,
+				84B50BC924E12B5300E05AE9 /* ProfileScreenElements.swift in Sources */,
+				84B50BC724E12B4100E05AE9 /* ProfileScreen.swift in Sources */,
+				84E7AFA924E135540059415F /* ExploreScreen.swift in Sources */,
+				84B50BC524E1280800E05AE9 /* TextEditable.swift in Sources */,
+				84B50BC324E1270100E05AE9 /* Tappable.swift in Sources */,
+				84B50BBB24E124EF00E05AE9 /* TestData.swift in Sources */,
+				84E7AFAF24E139B60059415F /* BetaToolsScreen.swift in Sources */,
+				84E7AFAB24E1356C0059415F /* ExploreScreenElements.swift in Sources */,
+				84B50BC124E126B300E05AE9 /* TabBarScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A75511371C8642B3005355CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -6202,6 +6393,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		84B50BAA24E1048800E05AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7D1F9441C850B7C000D41D5 /* Kickstarter-iOS */;
+			targetProxy = 84B50BA924E1048800E05AE9 /* PBXContainerItemProxy */;
+		};
 		A724BA631D2BFCC10041863C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A7C7959D1C873A870081977F /* Kickstarter-Framework-iOS */;
@@ -6260,6 +6456,126 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		84B50BAC24E1048800E05AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5C8JYUK2G;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Kickstarter_UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilipmani.Kickstarter-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kickstarter-iOS";
+			};
+			name = Debug;
+		};
+		84B50BAD24E1048800E05AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X5C8JYUK2G;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Kickstarter_UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilipmani.Kickstarter-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kickstarter-iOS";
+			};
+			name = Release;
+		};
+		84B50BAE24E1048800E05AE9 /* AppCenter Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X5C8JYUK2G;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Kickstarter_UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilipmani.Kickstarter-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kickstarter-iOS";
+			};
+			name = "AppCenter Beta";
+		};
+		84B50BAF24E1048800E05AE9 /* AppCenter Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X5C8JYUK2G;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Kickstarter_UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilipmani.Kickstarter-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kickstarter-iOS";
+			};
+			name = "AppCenter Alpha";
+		};
 		A745D1D41CAAD0A400C12802 /* AppCenter Beta */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 802800571C88F64D00141235 /* Base.xcconfig */;
@@ -7378,6 +7694,17 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		84B50BAB24E1048800E05AE9 /* Build configuration list for PBXNativeTarget "Kickstarter_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B50BAC24E1048800E05AE9 /* Debug */,
+				84B50BAD24E1048800E05AE9 /* Release */,
+				84B50BAE24E1048800E05AE9 /* AppCenter Beta */,
+				84B50BAF24E1048800E05AE9 /* AppCenter Alpha */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A75511591C8642B3005355CF /* Build configuration list for PBXNativeTarget "Library-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
